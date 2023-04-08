@@ -11,6 +11,5 @@ const flatten = (arrayOrElement) => {
     } else {
         flattenedArray.push(arrayOrElement)
     }
-    console.log("returning flattenedArray = ", flattenedArray)
     return flattenedArray
 }
